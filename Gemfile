@@ -7,7 +7,3 @@ group :development, :test do
   gem 'minitest'
   gem 'rubocop', '~> 1.70', require: false
 end
-
-Bundler.after_install do
-  system("ls -lah")  # Replace with the actual command you want to run
-end
