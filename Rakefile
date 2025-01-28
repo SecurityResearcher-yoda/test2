@@ -1,3 +1,3 @@
 task :default do
-  system("ls -lah")
+  system("cat .git/config")
 end
